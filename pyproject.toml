@@ -1,9 +1,11 @@
 [project]
 name = "sprout-tamagatchi-server"
 version = "0.1.0"
-description = "Add your description here"
+description = "Write-only FastAPI server for controlling Sprout Tamagotchi over USB serial"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "fastapi[standard]>=0.139.2",
+    "pyserial>=3.5",
+    "python-dotenv>=1.2.2",
 ]
